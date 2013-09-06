@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/minad/mdb"
   s.description = "imdb is a Ruby binding to OpenLDAP Lightning MDB."
   s.authors     = ["Daniel Mendler", "Black Square Media"]
-  s.extensions  = Dir["ext/**/extconf.rb"]
+  s.extensions  = Dir["ext/lmdb/extconf.rb"]
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- spec/*`.split("\n")
